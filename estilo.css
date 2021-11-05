@@ -1,0 +1,121 @@
+  
+
+body.index{
+    background-image: linear-gradient(to bottom, #1b5700,#7ABF36);  
+}
+main{
+    background-image: url(./floresta.jpg);
+   
+}
+h1{
+    color: #0F4001;
+    text-align: center;
+    text-shadow:1px 1px 3px  #7ABF36;
+    
+}
+h2{
+        color: #2E2823;
+    text-align: center;
+    text-shadow:1px 1px 3px  #7ABF36;
+
+}
+div{
+    display: block;
+    background-color: white;
+    box-shadow:10px 10px 15px  #273d11;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    width: 650px;
+    position:relative;
+
+}
+p{
+    text-align: center;
+    width: 620px;
+    padding: 10px;
+        margin: auto;
+
+}
+
+nav{
+    background-color: rgb(57, 61, 66);
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px black;
+    margin: auto;
+    text-align:center;
+    border-radius:12px;
+    width: auto;
+    position: initial;
+    display: flexbox;
+
+
+}
+
+iframe{
+    text-align:left;
+    background-color: rgb(15, 173, 15);
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 14pt;
+    width: 1250px;
+    height: 420px;
+    position:-webkit-sticky;
+    display:block;
+    margin: auto;
+}
+
+iframe#form{
+    width:620px;
+    height:480px;
+    
+}
+ nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+nav > a#principal{
+    text-decoration: underline, inherit;
+    color: rgb(45, 177, 89);
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+p#msg{
+    color: ivory;
+    text-align: center;
+    width: 550px;
+    padding: 10px;
+        margin: auto;
+
+}
+
+a#msg{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 550px;
+    padding: 10px;
+        margin: auto;
+}
+
+body.controle{
+    background-color:#ffffff;
+
+}
+.card{
+box-shadow: 1px 1px 5px;
+background-color:aqua;
+padding: 30px;
+border-radius: 50px;
+width: 40%;
+
+}
